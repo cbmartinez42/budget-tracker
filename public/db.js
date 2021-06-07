@@ -24,7 +24,6 @@ request.onerror = function (e) {
 };
 
 function checkDatabase() {
-  alert('Back Online!')
 
   // Open a transaction on your BudgetStore db
   let transaction = db.transaction(['BudgetStore'], 'readwrite');
